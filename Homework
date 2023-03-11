@@ -1,0 +1,68 @@
+PYTHON’DA VERİ TİPLERİ
+
+Metin	str
+Sayı	int, float, complex
+Dize (Seri)	list, tuple, range
+Haritalama	dict
+Atama	set, frozenset
+Mantıksal	bool
+Binary  	bytes, bytearray, memoryview
+
+
+Python metinsel veri tipi kullanımı
+*String (Metin) Veri Tipleri: 
+-Metinsel veri tiplerini saklayabileceğimiz ve kullanımında “” kullanmamız gereken veri tipidir.
+Örn: “Hülya Rana Özen” string bir veri tipidir.
+
+Python sayısal veri tipleri kullanımı
+Değişkenler üzerinde sayısal verileri saklayabildiğimiz veri tipidir. 4 adet alt başlığı bulunmaktadır.
+a)İnteger: Tam sayıları tutan veri tipidir. Sayısal ifadelerimiz ondalık değer almaz.  Örn: int=2574 print(int) çıktıda 2574 gelir.
+
+b) Float: Ondalık değerler alan veri tipidir.  
+Örn: float= 75.85 print(float) çıktıda 75.85 gelir.
+c) Complex: a+bj şeklinde gerçek ve sanal kısımdan oluşan kompleks sayıları ifade eden veri tipidir.
+Örn: complex = 45.25j print(complex) çıktı 45.25j gelir.
+Python dizi oluşturan veri tipleri kullanımı
+
+a)	List: Birbirinden farklı veri tiplerini kendi bünyesinde barındırır.  
+ÖRN: list = [ ‘Rana’ , ‘Özen’ , 29 , 3.18 ]
+a)	Tuple, Listten farklı olarak bünyesinde farklı veri tipi barındıramaz. 
+Örn:  tupple= ('Beni', 'Yalnızca', 'Okuyabilirsin')
+b)	Range Fonksiyon olarak çalışan veri tipidir. Genellikle döngüler (for, while, do while) içerisinde kullanılmaktadır. 
+Kullanımı:
+for i in  range(10):
+print (i)  çıktıda 0 1 2 3 4 5 6 7 8 9 gelir 0’dan başlar. 
+
+Python adresleme veri tipi kullanımı
+Dict veri tipi 
+Adındanda anlaşıldığı gibi dictionary, yani ingilizce anlamı ile sözlük olarak kullanılan key ve value olarak verileri saklayabilen veri yapısıdır.
+Örn:
+İzmir’in plaka kodunu almak istersek şu şekilde yapabiliriz;
+Örnek
+print(plakalar[sehirler.index('izmir')]) # 35
+
+Python atama oluşturan veri tipleri kullanımı
+Set veri tipi: Liste, sözlük ve demet veri türü gibi birden çok veri türünü birlikte barındıran veri tipidir.Kümeler ile ilgili yaptığınız her türlü işlevi (birleşme,kesişim vs.) bu veri tipi ile yapabilirsiniz.
+
+frozenset veri tipi
+Set veri türünün kısıtlanmış halidir. Frozenset veri tipinde oluşturulan kümenin içerisine veri eklenemez veya silinemez.
+
+Mantıksal veri tipi kullanımı
+Bool: Mantıksal veri operatöründe, doğru veya yanlış (true/false) mantığıyla çalışmaktadır.
+
+Binary veri tipleri
+bytes
+Bytes veri tipi kendi içerisinde bir fonksiyon olarak kullanılmaktadır. Bytes, verilmiş olan boyutta ve girilen verilerle başlatılan değişmez bir bayt nesnesini kendi içerisinde döndürür.
+bytearray veri tipi
+Byte veri tipinde oluşturulan veriler üzerinde değişiklik yapmak için kullanılır.
+memoryview veri tipi
+Python programlama dilinde bellek durumunu görüntülemek için kullanılan bir veri tipidir.
+
+2-Kodlama.io daki değişkenler:
+-String ifadelerinde yer aldığı Kurslarım, Tüm Kurslar, Kariyer, Sık Sorulan sorular mevcuttur.
+-Kurslarım  ve Tüm Kurslar kısmında list veri tiplerini görmüş oluruz.
+3- 
+if (username == 'ranaozen') and (password == 'abcde'):
+        print('')      
+else:
+    print('Your email or password is incorrect.')
